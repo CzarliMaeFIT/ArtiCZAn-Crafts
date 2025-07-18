@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"crossorigin="anonymous">
+      <title>ArtiCZAn Crafts [About Me]</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="wrapper">
+
+  <main>
+<!-- [ NAVIGATION BAR ] ========================================================================================================= --> 
+    <nav class="navbar">
+      <div class="navbar-container">
+        
+        <!-- Sidebar Toggle Button -->
+        <button class="btn btn-outline-secondary d-lg-none" 
+                type="button" 
+                data-bs-toggle="offcanvas" 
+                data-bs-target="#sidebarMenu" 
+                aria-controls="sidebarMenu">
+          ☰
+        </button>
+
+        <div class="nav-left d-none d-lg-flex">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About us</a>
+          <a href="products.html" class="nav-link">Products</a>
+          <a href="commissions.html" class="nav-link">Commission</a>
+          <a href="profile.html" class="nav-link">Profile</a>
+        </div>
+
+        <div class="nav-center">
+          <a href="index.html" class="navbar-brand">
+            <img src="Img_Logo.png" alt="Logo" class="nav-logo">
+          </a>
+        </div>
+
+        <div class="nav-right">
+          <p class="d-none d-lg-flex">
+            Don't Have an Account Yet?
+            <a href="register.html" class="register">Register</a>
+          </p>
+          <a href="login.html" class="login-button ms-2">Login</a>
+        </div>
+
+      </div>
+    </nav>
+
+<!-- [ SIDE BAR ] =================================================================================================================== --> 
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sidebarLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="nav flex-column">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="commissions.html">Commission</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+          <hr>
+          <p class="text-muted mb-1">Don't Have an Account Yet?</p>
+          <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+        </ul>
+
+      </div>
+    </div>
+<!-- [ HEADER ] =================================================================================================================== --> 
+    <header class="header">
+      <div class="head-container" style="display: flex; align-items: center; gap: 40px;">
+        <div class="header-left">
+          <div class="img-box">
+            <img src="Img_MyPic.jpg" alt="Cza's Photo">
+          </div>
+        </div>
+        <div class="header-right">
+          <h1 class="name">Hi! My Name is Czarli!</h1>
+          <h5 class="name">I Specialize in Artisan Crafts, both Handmade and Digital</h2>
+            <div class="about-me">
+              <p>the creator behind ArtiCZAn Crafts — a passion project that began in 2023 as Aromantic Scents, a cozy candle shop. What started with soothing scents soon grew into a collection of handmade bracelets, crochet pieces, and charming digital products.</p>
+              <p>ArtiCZAn Crafts is all about creativity, heart, and a touch of elegance. Every item is crafted with love to bring joy, whether it’s a special gift or a sweet treat for yourself. Thanks for being part of the journey!</p>
+            </div>
+        </div>
+      </div>
+    </header>
+
+<!-- [ MISSION/VISSION ] ========================================================================================================= --> 
+    <section class="side-by-side-section">
+      <div class="side-container left-container">
+        <h2>The Mission</h2>
+        <p>To empower artisan crafters by providing a trusted online platform where they can showcase and sell handmade crafts, digital products, and creative services to a supportive and growing community.</p>
+      </div>
+      <div class="side-container right-container">
+        <h2>Our Vision</h2>
+        <p>To become the go-to marketplace in the Philippines for unique, handmade, and digital creations — where passion meets purpose and every craft tells a story.</p>
+      </div>
+    </section>
+
+<!-- [ GALLERY ] ========================================================================================================= --> 
+  <section class="gallery-section">
+    <h1>My Gallery</h1>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="Img_Sample.png" alt="Gallery Image 1"></div>
+      <div class="gallery-item"><img src="Img_Sample.png" alt="Gallery Image 2"></div>
+      <div class="gallery-item"><img src="Img_Sample.png" alt="Gallery Image 3"></div>
+      <div class="gallery-item"><img src="Img_Sample.png" alt="Gallery Image 4"></div>
+      <div class="gallery-item"><img src="Img_Sample.png" alt="Gallery Image 5"></div>
+      <div class="gallery-item"><img src="Img_Sample.png" alt="Gallery Image 6"></div>
+      <div class="gallery-item"><img src="Img_Sample.png" alt="Gallery Image 4"></div>
+      <div class="gallery-item"><img src="Img_Sample.png" alt="Gallery Image 5"></div>
+    </div>
+  </section>
+
+  </main>
+<!-- [ FOOTER ] ========================================================================================================= --> 
+  <footer class="footer">
+    <div class="footer-left">
+      <p>&copy; Czarli Mae M. Tolentino</p>
+    </div>
+    <div class="footer-center">
+      <img src="Img_Logo.png" alt="Logo" class="footer-logo">
+    </div>
+    <div class="footer-right">
+      <p>Contact: articzandigitals@gmail.com</p>
+    </div>
+  </footer>
+
+</div>
+<!-- [ Bootstrap core JS ] ================================================== -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
